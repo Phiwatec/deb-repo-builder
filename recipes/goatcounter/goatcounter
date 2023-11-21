@@ -1,0 +1,1 @@
+ARGS="-db sqlite3+/var/opt/goatcounter/db/goatcounter.sqlite3 -listen [::]:5000 -tls none"

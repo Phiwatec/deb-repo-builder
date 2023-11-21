@@ -1,0 +1,16 @@
+[Unit]
+Description=GoatCounter
+
+[Service]
+User=goatcounter
+Group=goatcounter
+Type=simple
+Restart=always
+EnvironmentFile=/etc/default/goatcounter
+
+WorkingDirectory=/var/opt/goatcounter/
+ExecStart=/usr/bin/goatcounter serve $ARGS
+
+
+[Install]
+WantedBy=multi-user.target

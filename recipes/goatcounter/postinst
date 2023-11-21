@@ -1,0 +1,7 @@
+echo Running postinstall
+adduser --system --home /var/opt/goatcounter goatcounter
+addgroup --system goatcounter
+chown -R goatcounter /var/opt/goatcounter
+chgrp -R goatcounter /var/opt/goatcounter
+chmod a+x /usr/bin/goatcounter
+systemctl enable --now  goatcounter
