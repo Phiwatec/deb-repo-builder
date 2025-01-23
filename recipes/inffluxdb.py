@@ -2,8 +2,8 @@ import os
 from dotenv import load_dotenv
 import requests
 import urllib.request
-ARCH=['amd64']
-URL = "https://api.github.com/repos/mongodb-js/compass/releases/latest"
+ARCH=['amd64','arm64']
+URL = "https://api.github.com/repos/influxdata/influxdb/releases/latest"
 
 load_dotenv()
 
@@ -22,11 +22,8 @@ def check_version(current_version,force):
         return (None, None)
     else:
         for arch in ARCH:
-            for asset in data['assets']:
-                if asset['name'] == f'mongodb-compass_{new_version}_{arch}.deb':
-
-                    returndata.append(
-                        (asset['browser_download_url'], asset['name'], arch))
+            print(f'https://dl.influxdata.com/influxdb/releases/influxdb2_{new_version}-1_{arch}.deb')
+            returndata.append((f'https://dl.influxdata.com/influxdb/releases/influxdb2_{new_version}-1_{arch}.deb', f'influxdb_{new_version}_{arch}.deb', arch))
 
         if len(returndata) == 0:
             print("Error! New version but no matching assets found")

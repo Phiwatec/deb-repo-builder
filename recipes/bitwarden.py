@@ -11,7 +11,7 @@ token = os.environ.get('GH_TOKEN')
 auth = (username, token)
 
 
-def check_version(current_version):
+def check_version(current_version,force):
     resp = requests.get(URL, auth=auth)
     data = resp.json()
     for release in data:
@@ -22,7 +22,7 @@ def check_version(current_version):
 
     print("Current version: " + current_version)
     print("Latest version: " + new_version)
-    if new_version == current_version:
+    if new_version == current_version and not force:
         return (None, None)
     else:
         resp = requests.get(asset_url, auth=auth)

@@ -10,7 +10,7 @@ username = os.environ.get('GH_USER')
 token = os.environ.get('GH_TOKEN')
 auth = (username, token)
 
-def check_version(current_version):
+def check_version(current_version,force):
     page = requests.get(URL)
     soup = BeautifulSoup(page.content, 'html.parser')
     links=soup.find_all('a')
@@ -21,7 +21,7 @@ def check_version(current_version):
         
     version=link.split('/')[-1].split('_')[1]
 
-    return (version if version != current_version else None,link)
+    return (version if version != current_version and not force else None,link)
 
     
 

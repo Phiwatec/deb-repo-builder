@@ -11,14 +11,14 @@ username = os.environ.get('GH_USER')
 token = os.environ.get('GH_TOKEN')
 auth = (username, token)
 
-def check_version(current_version):
+def check_version(current_version,force):
     resp = requests.get(URL, auth=auth)
     data = resp.json()
     new_version = data['tag_name'][1:]
     print("Current version: " + current_version)
     print("Latest version: " + new_version)
     returndata = []
-    if new_version == current_version:
+    if new_version == current_version and not force:
         return (None, None)
     else:
         for arch in ARCH:

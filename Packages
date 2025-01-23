@@ -1,0 +1,738 @@
+Package: freeradius-python3
+Source: freeradius
+Version: 3.0.21+dfsg-2.2+deb11u1
+Architecture: amd64
+Maintainer: Debian FreeRADIUS Packaging Team <pkg-freeradius-maintainers@lists.alioth.debian.org>
+Installed-Size: 113
+Depends: freeradius (>= 3.0.21), libc6 (>= 2.4), libpython3.9 (>= 3.9.1)
+Breaks: freeradius (<< 3.0.16+dfsg-4~)
+Replaces: freeradius (<< 3.0.16+dfsg-4~)
+Filename: /var/www/repo/debian/pool/main/freeradius-python/freeradius-python3_3.0.21_amd64.deb
+Size: 68172
+MD5sum: 712015309a135cc4eaed2080d116b94f
+SHA1: e66b99c2e3306d59e652c3297a28ad1c6964bd24
+SHA256: 42bb64acbe9240830d6367302e7f08442fffc3a3b4c4a75856a3ab2c93db75ff
+Section: net
+Priority: optional
+Homepage: http://www.freeradius.org/
+Description: Python 3 module for FreeRADIUS server
+ This package is required to add Python 3 functionality to the
+ FreeRADIUS server.
+ .
+ It was introduced in FreeRADIUS 3.0.20 as EXPERIMENTAL module. Use at
+ your own risk.
+
+Package: goatcounter
+Version: 2.4.1
+Architecture: amd64
+Maintainer: Philipp Wasser <info@philippwasser.de>
+Filename: /var/www/repo/debian/pool/main/goatcounter/goatcounter_2.4.1_amd64.deb
+Size: 8884488
+MD5sum: ed197aabbc0e4b7ffcb96bc79bf7ea92
+SHA1: 07e409b63f4116dceb3110a623b1e74c8f615720
+SHA256: 80ff269e3f28ee19400e73d131dc560383aa3e9c9bda94bbded3b3801ceb2063
+Description: User friendly website statistics / analytics
+
+Package: goatcounter
+Version: 2.5.0
+Architecture: amd64
+Maintainer: Philipp Wasser <info@philippwasser.de>
+Filename: /var/www/repo/debian/pool/main/goatcounter/goatcounter_2.5.0_amd64.deb
+Size: 9356400
+MD5sum: f01c58eebb045ff5a2d3c8daf679883b
+SHA1: 6422ab251a8f7171cafc2d3d45c66dcb3368c0c3
+SHA256: a3c06832cd2f0cdd1e50be55c034bcf5c1f77474bd14a3516e7637b851425eaf
+Description: User friendly website statistics / analytics
+
+Package: mongodb-compass
+Version: 1.40.4
+Architecture: amd64
+Maintainer: MongoDB Inc <compass@mongodb.com>
+Installed-Size: 400163
+Depends: libgtk-3-0, libnotify4, libnss3, libxtst6, xdg-utils, libatspi2.0-0, libdrm2, libgbm1, libxcb-dri3-0, kde-cli-tools | kde-runtime | trash-cli | libglib2.0-bin | gvfs-bin, libsecret-1-0, gnome-keyring
+Recommends: pulseaudio | libasound2
+Suggests: gir1.2-gnomekeyring-1.0, libgnome-keyring0, lsb-release
+Filename: /var/www/repo/debian/pool/main/mongodb-compass/mongodb-compass_1.40.4_amd64.deb
+Size: 102622678
+MD5sum: 4847723aa89cfeca0e7f5e186f973117
+SHA1: a1e1d367f67d8898734cae52bd305f248e195448
+SHA256: 3c44ef707951d7585d8bf2a2acf5ca907e26acb532569c900edc5fdd2331f6dc
+Section: Databases
+Priority: optional
+Homepage: https://www.mongodb.com/products/compass
+Description: The MongoDB GUI
+ The MongoDB GUI
+
+Package: mongodb-compass
+Version: 1.41.0
+Architecture: amd64
+Maintainer: MongoDB Inc <compass@mongodb.com>
+Installed-Size: 401915
+Depends: libgtk-3-0, libnotify4, libnss3, libxtst6, xdg-utils, libatspi2.0-0, libdrm2, libgbm1, libxcb-dri3-0, kde-cli-tools | kde-runtime | trash-cli | libglib2.0-bin | gvfs-bin, libsecret-1-0, gnome-keyring
+Recommends: pulseaudio | libasound2
+Suggests: gir1.2-gnomekeyring-1.0, libgnome-keyring0, lsb-release
+Filename: /var/www/repo/debian/pool/main/mongodb-compass/mongodb-compass_1.41.0_amd64.deb
+Size: 102746206
+MD5sum: f92afc4d7a037719db496b3546149dcc
+SHA1: e86660501cce9bf8a05ddb7bdc3facf73edae98b
+SHA256: b9520dda84a969149e24ad5b863ccca923269d09bed62eb1b30d515a39acbc66
+Section: Databases
+Priority: optional
+Homepage: https://www.mongodb.com/products/compass
+Description: The MongoDB GUI
+ The MongoDB GUI
+
+Package: mongodb-compass
+Version: 1.42.0
+Architecture: amd64
+Maintainer: MongoDB Inc <compass@mongodb.com>
+Installed-Size: 425836
+Depends: libgtk-3-0, libnotify4, libnss3, libxtst6, xdg-utils, libatspi2.0-0, libdrm2, libgbm1, libxcb-dri3-0, kde-cli-tools | kde-runtime | trash-cli | libglib2.0-bin | gvfs-bin, libsecret-1-0, gnome-keyring
+Recommends: pulseaudio | libasound2
+Suggests: gir1.2-gnomekeyring-1.0, libgnome-keyring0, lsb-release
+Filename: /var/www/repo/debian/pool/main/mongodb-compass/mongodb-compass_1.42.0_amd64.deb
+Size: 108560612
+MD5sum: 52e2aeead2b752656c5a9df6dc3e205b
+SHA1: 35a6091d1a1cab2d7fb9b6308750c4fdcbc094fd
+SHA256: 63850b9e07801658e3406f4a4d6854fdf2045c152a6c4c76a926a46189ce2684
+Section: Databases
+Priority: optional
+Homepage: https://www.mongodb.com/products/compass
+Description: The MongoDB GUI
+ The MongoDB GUI
+
+Package: mongodb-compass
+Version: 1.42.1
+Architecture: amd64
+Maintainer: MongoDB Inc <compass@mongodb.com>
+Installed-Size: 426135
+Depends: libgtk-3-0, libnotify4, libnss3, libxtst6, xdg-utils, libatspi2.0-0, libdrm2, libgbm1, libxcb-dri3-0, kde-cli-tools | kde-runtime | trash-cli | libglib2.0-bin | gvfs-bin, libsecret-1-0, gnome-keyring
+Recommends: pulseaudio | libasound2
+Suggests: gir1.2-gnomekeyring-1.0, libgnome-keyring0, lsb-release
+Filename: /var/www/repo/debian/pool/main/mongodb-compass/mongodb-compass_1.42.1_amd64.deb
+Size: 108442562
+MD5sum: f44b462beb31b1ad2f86a8f18d47fe7c
+SHA1: baccbdbd571c3d48556c85695de281b8d7281204
+SHA256: 511c73a0c6f4de9f144cb6e7f2d9ad692410576ee16114b095389a705ff8f05f
+Section: Databases
+Priority: optional
+Homepage: https://www.mongodb.com/products/compass
+Description: The MongoDB GUI
+ The MongoDB GUI
+
+Package: mongodb-compass
+Version: 1.42.2
+Architecture: amd64
+Maintainer: MongoDB Inc <compass@mongodb.com>
+Installed-Size: 425006
+Depends: libgtk-3-0, libnotify4, libnss3, libxtst6, xdg-utils, libatspi2.0-0, libdrm2, libgbm1, libxcb-dri3-0, kde-cli-tools | kde-runtime | trash-cli | libglib2.0-bin | gvfs-bin, libsecret-1-0, gnome-keyring
+Recommends: pulseaudio | libasound2
+Suggests: gir1.2-gnomekeyring-1.0, libgnome-keyring0, lsb-release
+Filename: /var/www/repo/debian/pool/main/mongodb-compass/mongodb-compass_1.42.2_amd64.deb
+Size: 108444538
+MD5sum: 9ac965ff7a5b4ccf1e8cfdeca3e6b758
+SHA1: be01309a816bb4408b357348fe55242284bfc107
+SHA256: 36f1c5b01fb05cdab65e61dbdad608d4ff6f517c157306e147ae392e31ccd3f6
+Section: Databases
+Priority: optional
+Homepage: https://www.mongodb.com/products/compass
+Description: The MongoDB GUI
+ The MongoDB GUI
+
+Package: mongodb-compass
+Version: 1.42.3
+Architecture: amd64
+Maintainer: MongoDB Inc <compass@mongodb.com>
+Installed-Size: 425292
+Depends: libgtk-3-0, libnotify4, libnss3, libxtst6, xdg-utils, libatspi2.0-0, libdrm2, libgbm1, libxcb-dri3-0, kde-cli-tools | kde-runtime | trash-cli | libglib2.0-bin | gvfs-bin, libsecret-1-0, gnome-keyring
+Recommends: pulseaudio | libasound2
+Suggests: gir1.2-gnomekeyring-1.0, libgnome-keyring0, lsb-release
+Filename: /var/www/repo/debian/pool/main/mongodb-compass/mongodb-compass_1.42.3_amd64.deb
+Size: 108513416
+MD5sum: bc313fb9d60301207f4846757506c03d
+SHA1: c381752a998e0b3739eb7a34db8ce44caf5dfd54
+SHA256: fc40ff8ab7d3e1bf12e6da8497802a2d02948a6925e7659804c243b2050f43cf
+Section: Databases
+Priority: optional
+Homepage: https://www.mongodb.com/products/compass
+Description: The MongoDB GUI
+ The MongoDB GUI
+
+Package: openwebstart
+Version: 1.6.0
+Architecture: all
+Maintainer: Karakun AG
+Installed-Size: 119049
+Filename: /var/www/repo/debian/pool/main/openwebstart/openwebstart_1.6.0_amd64.deb
+Size: 53815990
+MD5sum: 43de50969e877cb5b7e56a97da2e2cdd
+SHA1: 819cbf749b4243f95f7ea4fa187dbef4ed444c7b
+SHA256: 8c80f37336dc07c308120763ec5b93d70d13f81183bf743a91897fbb738f53ca
+Priority: optional
+Description: openwebstart
+Date: Tue, 17 May 2022 10:58:00 +0200
+
+Package: openwebstart
+Version: 1.7.0
+Architecture: all
+Maintainer: Karakun AG
+Installed-Size: 119103
+Filename: /var/www/repo/debian/pool/main/openwebstart/openwebstart_1.7.0_amd64.deb
+Size: 53883448
+MD5sum: 7f51deb16007398c2a3773a3a4450796
+SHA1: 1d50e05f1964ab5348c4c293b3bf1940f8291f6d
+SHA256: e531b2fc040a9a71d7e3bf9eec2d147c9ed18c4d1fb7e5ef22fe46fec0a6b0a3
+Priority: optional
+Description: openwebstart
+Date: Thu, 8 Dec 2022 13:42:22 +0100
+
+Package: openwebstart
+Version: 1.8.0
+Architecture: all
+Maintainer: Karakun AG
+Installed-Size: 119170
+Filename: /var/www/repo/debian/pool/main/openwebstart/openwebstart_1.8.0_amd64.deb
+Size: 53914500
+MD5sum: a6465a01071304b92b7eaa8f115cd9e3
+SHA1: c071a8ef0efbe45329e83be3b50c8ac9182d3572
+SHA256: e52f84c742acb2ef7ce7661aaed6eb4827aaa26ef15842c885a1ecd599f9a6be
+Priority: optional
+Description: openwebstart
+Date: Fri, 19 May 2023 14:43:47 +0200
+
+Package: openwebstart
+Version: 1.8.0
+Architecture: all
+Maintainer: Karakun AG
+Installed-Size: 119170
+Filename: /var/www/repo/debian/pool/main/openwebstart/openwebstart_1.8.0_all.deb
+Size: 53914500
+MD5sum: a6465a01071304b92b7eaa8f115cd9e3
+SHA1: c071a8ef0efbe45329e83be3b50c8ac9182d3572
+SHA256: e52f84c742acb2ef7ce7661aaed6eb4827aaa26ef15842c885a1ecd599f9a6be
+Priority: optional
+Description: openwebstart
+Date: Fri, 19 May 2023 14:43:47 +0200
+
+Package: openwebstart
+Version: 1.9.0
+Architecture: all
+Maintainer: Karakun AG
+Installed-Size: 119212
+Filename: /var/www/repo/debian/pool/main/openwebstart/openwebstart_1.9.0_all.deb
+Size: 53941306
+MD5sum: 7d87add7cf840a0fd704007b3d003f7c
+SHA1: 8d908b8c300bdecb2d79b9b284cb09655e09b805
+SHA256: d065e5b5c7f3d5fbcb1d01bf5b1e9a3c8ba3a29ccf7c4da21d98f00351fffa64
+Priority: optional
+Description: openwebstart
+Date: Sun, 3 Dec 2023 02:35:39 +0100
+
+Package: openwebstart
+Version: 1.9.1
+Architecture: all
+Maintainer: Karakun AG
+Installed-Size: 119214
+Filename: /var/www/repo/debian/pool/main/openwebstart/openwebstart_1.9.1_all.deb
+Size: 53944374
+MD5sum: 28734dfe0d08ae6e7b29d27643b0ff6d
+SHA1: f48265a8c762d8dc51037dcf76805a617b9a416b
+SHA256: f88a743525afb20efa3ec45b5bdbcd95d71cf8bfad9233c6352fea9d87d12e0b
+Priority: optional
+Description: openwebstart
+Date: Wed, 20 Dec 2023 19:17:36 +0100
+
+Package: powerfolder
+Version: 17.1.100-1
+Architecture: amd64
+Maintainer: PowerFolder.com <support@powerfolder.com>
+Installed-Size: 301907
+Filename: /var/www/repo/debian/pool/main/powerfolder/PowerFolder_17.1.100-1_amd64.deb
+Size: 144344256
+MD5sum: c308c67fa8cb54be06dd698d32ebcdd8
+SHA1: a7db11495be84e2ce34e225ba9715222cb69b173
+SHA256: d29ae99928eddc703530fd1f0c8164c05b1971898a8ce403a7c62e26dd16f239
+Section: non-free/net
+Priority: optional
+Homepage: http://www.powerfolder.com
+Description: PowerFolder
+ PowerFolder is a software to sync, share, backup,
+ and access files.
+
+Package: powerfolder
+Version: 19.2.100-1
+Architecture: amd64
+Maintainer: PowerFolder.com <support@powerfolder.com>
+Installed-Size: 299802
+Filename: /var/www/repo/debian/pool/main/powerfolder/PowerFolder_v19.2.100_amd64.deb
+Size: 141950652
+MD5sum: 91d5a976cf9febf84f75d5c25b07b5d8
+SHA1: 9b8144bf2ec67cb59b0d73793f5151983f196971
+SHA256: b5cd78dc98d4507e9b3f111a7c10c9c0c1430470771abb062609edb1ffda793d
+Section: non-free/net
+Priority: optional
+Homepage: https://www.powerfolder.com
+Description: PowerFolder
+ PowerFolder is a software to sync, share, backup,
+ and access files.
+
+Package: powerfolder
+Version: 20.0.100-1
+Architecture: amd64
+Maintainer: PowerFolder.com <support@powerfolder.com>
+Installed-Size: 299802
+Filename: /var/www/repo/debian/pool/main/powerfolder/PowerFolder_Latest_amd64.deb
+Size: 141952228
+MD5sum: f43ae5692e39196bf67fd5042def170b
+SHA1: c6008a8e0fd2cb1f69e0611329540f6e7653beaa
+SHA256: f99e47bb1ea1a97e9532dd23ca82645e8de87a8c6a7fcce6353ae46cabbd4da7
+Section: non-free/net
+Priority: optional
+Homepage: https://www.powerfolder.com
+Description: PowerFolder
+ PowerFolder is a software to sync, share, backup,
+ and access files.
+
+Package: prometheus-ping-exporter
+Version: 1.0.1
+Architecture: amd64
+Maintainer: Phiwatec
+Filename: /var/www/repo/debian/pool/main/prometheus-ping-exporter/prometheus-ping-exporter_1.0.1_linux_amd64.deb
+Size: 2890256
+MD5sum: 19e712d32f877f18c9d319aa1c0df988
+SHA1: 1d889aa25e39c65463c81f0b4d53fcc164376d8c
+SHA256: 225595cd9ae6b91153d2c527a5c237a22ad466169288a4f7bc14c483f74c9f19
+Description: Prometheus Ping Exporter
+
+Package: prometheus-ping-exporter
+Version: 1.1.0
+Architecture: amd64
+Maintainer: Phiwatec
+Filename: /var/www/repo/debian/pool/main/prometheus-ping-exporter/prometheus-ping-exporter_1.1.0_linux_amd64.deb
+Size: 3138180
+MD5sum: f2c61a8a4b9e7b609619095358174082
+SHA1: b256696814bdeac7a77f0d051e83bd974be82af6
+SHA256: 2580fc529cf2ad78e63d3facc2eee37d6605f0c45128cd378067572d748cc18b
+Description: Prometheus Ping Exporter
+
+Package: prometheus-ping-exporter
+Version: 1.1.1
+Architecture: amd64
+Maintainer: Phiwatec
+Filename: /var/www/repo/debian/pool/main/prometheus-ping-exporter/prometheus-ping-exporter_1.1.1_linux_amd64.deb
+Size: 3195640
+MD5sum: 65d14726ed4ac4ddef935ecaa64e0320
+SHA1: ba6ab3a123784f5d52aff38f3a03386d1017bf78
+SHA256: 8b24b2fa009775f450d1a10181b635caeede2b38e12bb5711f4ff3abc829ad60
+Description: Prometheus Ping Exporter
+
+Package: rpi-imager
+Version: 1.8.5
+Architecture: amd64
+Maintainer: Floris Bos <bos@je-eigen-domein.nl>
+Installed-Size: 1498
+Depends: libarchive13 (>= 3.0.4), libc6 (>= 2.34), libcurl3-gnutls (>= 7.16.2), libgcc-s1 (>= 3.3.1), libgnutls30 (>= 3.7.0), liblzma5 (>= 5.1.1alpha+20110809), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5network5 (>= 5.12.2), libqt5qml5 (>= 5.10.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 12), qml-module-qtquick2, qml-module-qtquick-controls2, qml-module-qtquick-layouts, qml-module-qtquick-templates2, qml-module-qtquick-window2, qml-module-qtgraphicaleffects, dosfstools, fdisk
+Recommends: udisks2
+Filename: /var/www/repo/debian/pool/main/rpi-imager/rpi-imager_1.8.5_amd64.deb
+Size: 592512
+MD5sum: 9409fd6485874f4fdb345791b8bfccc4
+SHA1: 9a39dabb9ac7f190f92717efec1d15a6b2caed89
+SHA256: fcf96ce24f2b852b30a16b243a6592f1f315eb0a19b248efc94d25b34d1167b1
+Section: admin
+Priority: optional
+Homepage: https://www.raspberrypi.org/
+Description: Raspberry Pi imaging utility
+ Graphical user-interface to write disk images and format SD cards.
+
+Package: step-ca
+Version: 0.21.0
+Architecture: amd64
+Maintainer: Smallstep Labs, Inc. <techadmin@smallstep.com>
+Installed-Size: 54016
+Filename: /var/www/repo/debian/pool/main/step-ca/step-ca_0.21.0_amd64.deb
+Size: 14602868
+MD5sum: f1f202fc5e5c4e535034dedb92ee1b29
+SHA1: 1c974d2742e1ee74b5561b35190dc7f1fa2eac92
+SHA256: 147103304cda05a9aa6eb94772586a307608ad6d90ffb79ad767a8b66a8216ef
+Section: utils
+Priority: optional
+Homepage: https://github.com/smallstep/certificates
+Description: Smallstep Certificate Authority
+   step-ca is the Smallstep Certificate Authority.
+
+Package: step-ca
+Version: 0.22.0
+Architecture: amd64
+Maintainer: Smallstep Labs, Inc. <techadmin@smallstep.com>
+Installed-Size: 58469
+Filename: /var/www/repo/debian/pool/main/step-ca/step-ca_0.22.0_amd64.deb
+Size: 15315848
+MD5sum: 645a7982b5ad06b02cc1eade6c836d69
+SHA1: b9038a4009c022250f99c2001bdc0cb1bfacfaff
+SHA256: d9c363e9aa5efe5a7d00673c7335b8f8acf13ca24d873a0a38cbcdeed63d7bab
+Section: utils
+Priority: optional
+Homepage: https://github.com/smallstep/certificates
+Description: Smallstep Certificate Authority
+   step-ca is the Smallstep Certificate Authority.
+
+Package: step-ca
+Version: 0.22.1
+Architecture: amd64
+Maintainer: Smallstep Labs, Inc. <techadmin@smallstep.com>
+Installed-Size: 58469
+Filename: /var/www/repo/debian/pool/main/step-ca/step-ca_0.22.1_amd64.deb
+Size: 15316104
+MD5sum: 60d9ecfbb595c360ab2cac3323e80783
+SHA1: b7209a2c8135b94ad6760d3343a2fc53c889bc52
+SHA256: 52ea99c220ab71a1e999965dcb7deffc589c9ab31da5c7d2a88a42deb29739d6
+Section: utils
+Priority: optional
+Homepage: https://github.com/smallstep/certificates
+Description: Smallstep Certificate Authority
+   step-ca is the Smallstep Certificate Authority.
+
+Package: step-ca
+Version: 0.23.0
+Architecture: amd64
+Maintainer: Smallstep <techadmin@smallstep.com>
+Installed-Size: 36565
+Filename: /var/www/repo/debian/pool/main/step-ca/step-ca_0.23.0_amd64.deb
+Size: 12521200
+MD5sum: e82f46ebe77d2c677357c1992d96b2a3
+SHA1: fd9195d235385e22cc37ef663adbd67a8877c6c0
+SHA256: 0b53a7634195f7bbd886f2f6e837b7aaaf699a17fbdf9a7d72606d2a0a1d2e83
+Section: utils
+Priority: optional
+Homepage: https://github.com/smallstep/certificates
+Description: step-ca is an online certificate authority for secure, automated certificate management.
+
+Package: step-ca
+Version: 0.23.1
+Architecture: amd64
+Maintainer: Smallstep <techadmin@smallstep.com>
+Installed-Size: 36720
+Filename: /var/www/repo/debian/pool/main/step-ca/step-ca_0.23.1_amd64.deb
+Size: 12596762
+MD5sum: 6c05ff7f8248f1127dfc4bf160b17ee5
+SHA1: a7675a2b26e42178eeec4911a0308fe606b4f869
+SHA256: 47d20b89cf70851e6e885fa70911bc39741524ca6beeb46bdfb4500cffc63d1e
+Section: utils
+Priority: optional
+Homepage: https://github.com/smallstep/certificates
+Description: step-ca is an online certificate authority for secure, automated certificate management.
+
+Package: step-ca
+Version: 0.23.2
+Architecture: amd64
+Maintainer: Smallstep <techadmin@smallstep.com>
+Installed-Size: 37143
+Filename: /var/www/repo/debian/pool/main/step-ca/step-ca_0.23.2_amd64.deb
+Size: 12654464
+MD5sum: 5d6e5da15b76e51474702fbdab37cc27
+SHA1: cce3c655ae6d11181fc345d0233213c0771b6d62
+SHA256: 00eb0ef47356f123f80755b90315757cd4c5e8a188ab412fc2f36cd8af08dfe7
+Section: utils
+Priority: optional
+Homepage: https://github.com/smallstep/certificates
+Description: step-ca is an online certificate authority for secure, automated certificate management.
+
+Package: step-ca
+Version: 0.24.0
+Architecture: amd64
+Maintainer: Smallstep <techadmin@smallstep.com>
+Installed-Size: 36771
+Filename: /var/www/repo/debian/pool/main/step-ca/step-ca_0.24.0_amd64.deb
+Size: 12639924
+MD5sum: a2848d751edf5bc5dd23baad087cc064
+SHA1: f79e6dd8b499d15d084662d51ffa4bfd78c1deb2
+SHA256: cbcf892cfb83ebb8fe8fa482d4cf86e07ff1593a7132c4d724b941f9e9a48c1a
+Section: utils
+Priority: optional
+Homepage: https://github.com/smallstep/certificates
+Description: step-ca is an online certificate authority for secure, automated certificate management.
+
+Package: step-ca
+Version: 0.24.1
+Architecture: amd64
+Maintainer: Smallstep <techadmin@smallstep.com>
+Installed-Size: 36771
+Filename: /var/www/repo/debian/pool/main/step-ca/step-ca_0.24.1_amd64.deb
+Size: 12639918
+MD5sum: 90ab7d99aa970632aa90d9c988d65998
+SHA1: 2d27183a091c805ba1ea15fe0591868acb0c3c39
+SHA256: 2bde2ff349feca2b6a785d47cee06e69eb65502302ca39124c2613efd23d3358
+Section: utils
+Priority: optional
+Homepage: https://github.com/smallstep/certificates
+Description: step-ca is an online certificate authority for secure, automated certificate management.
+
+Package: step-ca
+Version: 0.24.2
+Architecture: amd64
+Maintainer: Smallstep <techadmin@smallstep.com>
+Installed-Size: 38242
+Filename: /var/www/repo/debian/pool/main/step-ca/step-ca_0.24.2_amd64.deb
+Size: 12973766
+MD5sum: dd581beaeffd2a5c2f3e93593ff70682
+SHA1: 0194674cedd40c3c10f91e64b8aa59597cc5ea93
+SHA256: 7b9748c9063893d63f66221010b11378a0ad56c50e5db8cd6ef4330a2bd39540
+Section: utils
+Priority: optional
+Homepage: https://github.com/smallstep/certificates
+Description: step-ca is an online certificate authority for secure, automated certificate management.
+
+Package: step-ca
+Version: 0.25.0
+Architecture: amd64
+Maintainer: Smallstep <techadmin@smallstep.com>
+Installed-Size: 39551
+Filename: /var/www/repo/debian/pool/main/step-ca/step-ca_0.25.0_amd64.deb
+Size: 13042588
+MD5sum: e8000a01d979ebaa5aef3fac1a4ff581
+SHA1: 79535dc84b6af5d7d26ead5a5f0b0c4c8b48709b
+SHA256: 11afb119103f0c63ee61b4b0e8528068f96fa49467f1a509846bcdbb7aca17c1
+Section: utils
+Priority: optional
+Homepage: https://github.com/smallstep/certificates
+Description: step-ca is an online certificate authority for secure, automated certificate management.
+
+Package: step-ca
+Version: 0.25.2
+Architecture: amd64
+Maintainer: Smallstep <techadmin@smallstep.com>
+Installed-Size: 38666
+Filename: /var/www/repo/debian/pool/main/step-ca/step-ca_0.25.2_amd64.deb
+Size: 12529036
+MD5sum: 1437feb1085ca525db802fc7f0acf5e6
+SHA1: 51735040b065110c9c9d2cb21b2c5326bc690b62
+SHA256: ad87034d6b52a2d6ff919d8ad3ab4d095fea39d29d19febc1a5ad38b7cbfe354
+Section: utils
+Priority: optional
+Homepage: https://github.com/smallstep/certificates
+Description: step-ca is an online certificate authority for secure, automated certificate management.
+
+Package: step-cli
+Version: 0.21.0
+Architecture: amd64
+Maintainer: Smallstep <techadmin@smallstep.com>
+Installed-Size: 30227
+Filename: /var/www/repo/debian/pool/main/step-cli/step-cli_0.21.0_amd64.deb
+Size: 11193830
+MD5sum: 37435d3abc0d8d8e77cf347e73aade2a
+SHA1: 0db57c21199995a15ad997fd9aca41c3fb4106f9
+SHA256: 673ce228ee65c8a1dc901f61660b65f1148fc7a1548df8e143bbd176ca92882c
+Section: utils
+Priority: optional
+Homepage: https://github.com/smallstep/cli
+Description: step-cli lets you build, operate, and automate Public Key Infrastructure (PKI) systems and workflows.
+ It's a swiss army knife for authenticated encryption (X.509, TLS), single sign-on (OAuth OIDC, SAML), multi-factor authentication (OATH OTP, FIDO U2F), encryption mechanisms (JSON Web Encryption, NaCl), and verifiable claims (JWT, SAML assertions).
+
+Package: step-cli
+Version: 0.22.0
+Architecture: amd64
+Maintainer: Smallstep <techadmin@smallstep.com>
+Installed-Size: 31116
+Filename: /var/www/repo/debian/pool/main/step-cli/step-cli_0.22.0_amd64.deb
+Size: 11567750
+MD5sum: cb0654a6e8cf1ad061f24c054021776f
+SHA1: c81f3bc8affd560ff43e045abce0d900239e7d09
+SHA256: 5e06c0729e774bf9e7d2107c7a000071b9c626e8d956de746aa53806465cb34a
+Section: utils
+Priority: optional
+Homepage: https://github.com/smallstep/cli
+Description: step-cli lets you build, operate, and automate Public Key Infrastructure (PKI) systems and workflows.
+ It's a swiss army knife for authenticated encryption (X.509, TLS), single sign-on (OAuth OIDC, SAML), multi-factor authentication (OATH OTP, FIDO U2F), encryption mechanisms (JSON Web Encryption, NaCl), and verifiable claims (JWT, SAML assertions).
+
+Package: step-cli
+Version: 0.23.0
+Architecture: amd64
+Maintainer: Smallstep <techadmin@smallstep.com>
+Installed-Size: 31929
+Filename: /var/www/repo/debian/pool/main/step-cli/step-cli_0.23.0_amd64.deb
+Size: 11862368
+MD5sum: 566d535710296374e086d7d195608ef3
+SHA1: 5e4607c4313e245eec89f441910ab21fa2c345ee
+SHA256: 1f18c1c5eb632fad4f8254d64ea1dcef735a2fcefe6e94457184a122309d4c90
+Section: utils
+Priority: optional
+Homepage: https://github.com/smallstep/cli
+Description: step-cli lets you build, operate, and automate Public Key Infrastructure (PKI) systems and workflows.
+ It's a swiss army knife for authenticated encryption (X.509, TLS), single sign-on (OAuth OIDC, SAML), multi-factor authentication (OATH OTP, FIDO U2F), encryption mechanisms (JSON Web Encryption, NaCl), and verifiable claims (JWT, SAML assertions).
+
+Package: step-cli
+Version: 0.23.1
+Architecture: amd64
+Maintainer: Smallstep <techadmin@smallstep.com>
+Installed-Size: 32197
+Filename: /var/www/repo/debian/pool/main/step-cli/step-cli_0.23.1_amd64.deb
+Size: 11934348
+MD5sum: de01ac9b1bbb6fd4e88a04135df76a2c
+SHA1: aff8f65f6f802afce5e101fd8942b9e72fe64906
+SHA256: 1248d2ce6061ba8fa699258c474001418eb7c84bb6caa67a44cc61a0ef40be74
+Section: utils
+Priority: optional
+Homepage: https://github.com/smallstep/cli
+Description: step-cli lets you build, operate, and automate Public Key Infrastructure (PKI) systems and workflows.
+ It's a swiss army knife for authenticated encryption (X.509, TLS), single sign-on (OAuth OIDC, SAML), multi-factor authentication (OATH OTP, FIDO U2F), encryption mechanisms (JSON Web Encryption, NaCl), and verifiable claims (JWT, SAML assertions).
+
+Package: step-cli
+Version: 0.23.2
+Architecture: amd64
+Maintainer: Smallstep <techadmin@smallstep.com>
+Installed-Size: 32214
+Filename: /var/www/repo/debian/pool/main/step-cli/step-cli_0.23.2_amd64.deb
+Size: 11910840
+MD5sum: eb429301f69006168d246a30aaef49c0
+SHA1: 28cad3473142c3cb4b1f9adb4be188c880cc767a
+SHA256: 3a0868b3aed1320571a80661c6005cbf9e3647e467f71c590235fdd4c36128d5
+Section: utils
+Priority: optional
+Homepage: https://github.com/smallstep/cli
+Description: step-cli lets you build, operate, and automate Public Key Infrastructure (PKI) systems and workflows.
+ It's a swiss army knife for authenticated encryption (X.509, TLS), single sign-on (OAuth OIDC, SAML), multi-factor authentication (OATH OTP, FIDO U2F), encryption mechanisms (JSON Web Encryption, NaCl), and verifiable claims (JWT, SAML assertions).
+
+Package: step-cli
+Version: 0.23.3
+Architecture: amd64
+Maintainer: Smallstep <techadmin@smallstep.com>
+Installed-Size: 32231
+Filename: /var/www/repo/debian/pool/main/step-cli/step-cli_0.23.3_amd64.deb
+Size: 11956034
+MD5sum: 275c2660a04dc16c2f630e176cfc0d07
+SHA1: c79f8a60e832bf50a60e802f2bcd47ca02b6eb48
+SHA256: 93bd802e3123005a8e49506f8d88310ed67040c29e82207d248552da570d506c
+Section: utils
+Priority: optional
+Homepage: https://github.com/smallstep/cli
+Description: step-cli lets you build, operate, and automate Public Key Infrastructure (PKI) systems and workflows.
+ It's a swiss army knife for authenticated encryption (X.509, TLS), single sign-on (OAuth OIDC, SAML), multi-factor authentication (OATH OTP, FIDO U2F), encryption mechanisms (JSON Web Encryption, NaCl), and verifiable claims (JWT, SAML assertions).
+
+Package: step-cli
+Version: 0.23.4
+Architecture: amd64
+Maintainer: Smallstep <techadmin@smallstep.com>
+Installed-Size: 32253
+Filename: /var/www/repo/debian/pool/main/step-cli/step-cli_0.23.4_amd64.deb
+Size: 11943814
+MD5sum: c7e4cd44d16e90cc065899fe50b37bf2
+SHA1: 1603ee1939b63521d716f49674742d4fccf3f954
+SHA256: d7a4f27ed5500cc1bbd7733f8cddc533af646ccfabc15f83e608d85f121803a3
+Section: utils
+Priority: optional
+Homepage: https://github.com/smallstep/cli
+Description: step-cli lets you build, operate, and automate Public Key Infrastructure (PKI) systems and workflows.
+ It's a swiss army knife for authenticated encryption (X.509, TLS), single sign-on (OAuth OIDC, SAML), multi-factor authentication (OATH OTP, FIDO U2F), encryption mechanisms (JSON Web Encryption, NaCl), and verifiable claims (JWT, SAML assertions).
+
+Package: step-cli
+Version: 0.24.1
+Architecture: amd64
+Maintainer: Smallstep <techadmin@smallstep.com>
+Installed-Size: 33782
+Filename: /var/www/repo/debian/pool/main/step-cli/step-cli_0.24.1_amd64.deb
+Size: 12463998
+MD5sum: c46fedd7ebd5fbbca997b0c25c2f045a
+SHA1: 1de95fc47c15e8636751ce2770df05442d80867e
+SHA256: 3123ab0fdd7ea9d5888ae61658592e11b1184b8322221eb1d3a5d20f0c1aec75
+Section: utils
+Priority: optional
+Homepage: https://github.com/smallstep/cli
+Description: step-cli lets you build, operate, and automate Public Key Infrastructure (PKI) systems and workflows.
+ It's a swiss army knife for authenticated encryption (X.509, TLS), single sign-on (OAuth OIDC, SAML), multi-factor authentication (OATH OTP, FIDO U2F), encryption mechanisms (JSON Web Encryption, NaCl), and verifiable claims (JWT, SAML assertions).
+
+Package: step-cli
+Version: 0.24.2
+Architecture: amd64
+Maintainer: Smallstep <techadmin@smallstep.com>
+Installed-Size: 33782
+Filename: /var/www/repo/debian/pool/main/step-cli/step-cli_0.24.2_amd64.deb
+Size: 12483692
+MD5sum: 061281a449df01d0f4b73345daf3ff41
+SHA1: 6d4de1780386f490ff9adf704ab053b13e4dcf16
+SHA256: eb9aedc9fa48036726ecd84ab01b74ba655fb53c6fdf63484fb39c7632d04dba
+Section: utils
+Priority: optional
+Homepage: https://github.com/smallstep/cli
+Description: step-cli lets you build, operate, and automate Public Key Infrastructure (PKI) systems and workflows.
+ It's a swiss army knife for authenticated encryption (X.509, TLS), single sign-on (OAuth OIDC, SAML), multi-factor authentication (OATH OTP, FIDO U2F), encryption mechanisms (JSON Web Encryption, NaCl), and verifiable claims (JWT, SAML assertions).
+
+Package: step-cli
+Version: 0.24.3
+Architecture: amd64
+Maintainer: Smallstep <techadmin@smallstep.com>
+Installed-Size: 33782
+Filename: /var/www/repo/debian/pool/main/step-cli/step-cli_0.24.3_amd64.deb
+Size: 12500340
+MD5sum: 6d84407a60c960b77018b068d831ec45
+SHA1: 9d33e5fd66f990ac7942848dd6c00bb8a31835ca
+SHA256: 3367a0a01795f41706640dc43f8684973c3c515c8d99a9860dffd2c5b7f39e3f
+Section: utils
+Priority: optional
+Homepage: https://github.com/smallstep/cli
+Description: step-cli lets you build, operate, and automate Public Key Infrastructure (PKI) systems and workflows.
+ It's a swiss army knife for authenticated encryption (X.509, TLS), single sign-on (OAuth OIDC, SAML), multi-factor authentication (OATH OTP, FIDO U2F), encryption mechanisms (JSON Web Encryption, NaCl), and verifiable claims (JWT, SAML assertions).
+
+Package: step-cli
+Version: 0.24.4
+Architecture: amd64
+Maintainer: Smallstep <techadmin@smallstep.com>
+Installed-Size: 33909
+Filename: /var/www/repo/debian/pool/main/step-cli/step-cli_0.24.4_amd64.deb
+Size: 12546326
+MD5sum: 43ba803d6c7d436da51a87b95963c360
+SHA1: ba3f53321164a271fba048ef976cc310f9abc6ca
+SHA256: 7bc0c6bd5e1a07156c99eec3a426d6e2dc8d6ad49f24785460a76adf49fce47b
+Section: utils
+Priority: optional
+Homepage: https://github.com/smallstep/cli
+Description: step-cli lets you build, operate, and automate Public Key Infrastructure (PKI) systems and workflows.
+ It's a swiss army knife for authenticated encryption (X.509, TLS), single sign-on (OAuth OIDC, SAML), multi-factor authentication (OATH OTP, FIDO U2F), encryption mechanisms (JSON Web Encryption, NaCl), and verifiable claims (JWT, SAML assertions).
+
+Package: step-cli
+Version: 0.25.0
+Architecture: amd64
+Maintainer: Smallstep <techadmin@smallstep.com>
+Installed-Size: 34327
+Filename: /var/www/repo/debian/pool/main/step-cli/step-cli_0.25.0_amd64.deb
+Size: 12529518
+MD5sum: 441888a9de1f770fe2d4cfd08d678146
+SHA1: 3245f3c7e29a437fd7f6d2c6177d765def2cd88e
+SHA256: 18958d0352fd1b23f91c7649011378f3b87a792f136fbdadc86a352c408360f9
+Section: utils
+Priority: optional
+Homepage: https://github.com/smallstep/cli
+Description: step-cli lets you build, operate, and automate Public Key Infrastructure (PKI) systems and workflows.
+ It's a swiss army knife for authenticated encryption (X.509, TLS), single sign-on (OAuth OIDC, SAML), multi-factor authentication (OATH OTP, FIDO U2F), encryption mechanisms (JSON Web Encryption, NaCl), and verifiable claims (JWT, SAML assertions).
+
+Package: step-cli
+Version: 0.25.1
+Architecture: amd64
+Maintainer: Smallstep <techadmin@smallstep.com>
+Installed-Size: 33440
+Filename: /var/www/repo/debian/pool/main/step-cli/step-cli_0.25.1_amd64.deb
+Size: 12095080
+MD5sum: 554ec3d1a8d6f68644081ac9ee9b9ed9
+SHA1: f9df361eaca6f2d2ba7497c01e2e70c0b0050c15
+SHA256: 38e01cb55fa22410054b3512c03e026e114e52a548c2f6ea893f6bcb0b938f04
+Section: utils
+Priority: optional
+Homepage: https://github.com/smallstep/cli
+Description: step-cli lets you build, operate, and automate Public Key Infrastructure (PKI) systems and workflows.
+ It's a swiss army knife for authenticated encryption (X.509, TLS), single sign-on (OAuth OIDC, SAML), multi-factor authentication (OATH OTP, FIDO U2F), encryption mechanisms (JSON Web Encryption, NaCl), and verifiable claims (JWT, SAML assertions).
+
+Package: step-cli
+Version: 0.25.2
+Architecture: amd64
+Maintainer: Smallstep <techadmin@smallstep.com>
+Installed-Size: 34018
+Filename: /var/www/repo/debian/pool/main/step-cli/step-cli_0.25.2_amd64.deb
+Size: 12267258
+MD5sum: 2ca7b24ca48e50fbdc157b7c25ecd87f
+SHA1: 16fbdc084badea76c73991865b2cd72b84b47fc0
+SHA256: a906a51e034dde5d5533de44509496116d68eca73b4eef9acf026bf88bbe3fe5
+Section: utils
+Priority: optional
+Homepage: https://github.com/smallstep/cli
+Description: step-cli lets you build, operate, and automate Public Key Infrastructure (PKI) systems and workflows.
+ It's a swiss army knife for authenticated encryption (X.509, TLS), single sign-on (OAuth OIDC, SAML), multi-factor authentication (OATH OTP, FIDO U2F), encryption mechanisms (JSON Web Encryption, NaCl), and verifiable claims (JWT, SAML assertions).
+

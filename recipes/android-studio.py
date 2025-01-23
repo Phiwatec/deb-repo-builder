@@ -6,7 +6,7 @@ URL = "https://developer.android.com/studio#downloads"
 DL_URL = "https://redirector.gvt1.com/edgedl/android/studio/install/{version}/{file}"
 
 
-def check_version(current_version):
+def check_version(current_version,force):
     page = requests.get(URL)
     soup = BeautifulSoup(page.content, "html.parser")
 
@@ -19,7 +19,7 @@ def check_version(current_version):
         break
 
     version = file.split('-')[2]
-    if version == current_version:
+    if version == current_version and not force:
         return (None, None)
     else:
         return (version, file)
